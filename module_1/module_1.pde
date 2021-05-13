@@ -1,4 +1,5 @@
-
+int globalVariable = 100;
+int time = 10000;
 
 // the function that gets called at the very first frame
 void setup()
@@ -90,4 +91,6 @@ void drawCircle()
   {
      circle((float)Math.cos(x) * radius, (float)Math.sin(x) * radius, 5); 
   }
+  
+  //text
 }
